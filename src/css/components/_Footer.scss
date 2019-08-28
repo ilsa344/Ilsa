@@ -1,0 +1,90 @@
+.section-last {
+    padding: 150px 0;
+    background: #222222;
+    .single-footer-widget {
+        margin-bottom: 30px;
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+        .footer-nav {
+            margin-top: -7px;
+            li {
+                margin-top: 8px;
+                a, a:focus, a:hover {
+                    text-decoration: none;
+                    outline: 0;
+                    color: #777777;
+                }
+            }
+        }
+        .relative {
+            position: relative;
+        }
+        .instafeed {
+            margin: -5px;
+            li {
+                width: 25%;
+                img {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        padding-top: 40px;
+        border-top: 1px solid #eee;
+        .m-0 {
+            margin: 0 !important;
+            a, a:focus, a:hover {
+                text-decoration: none;
+                outline: 0;
+                color: #777777;
+            }
+        }
+    }
+    .footer-social {
+        margin-right: -5px;
+        a {
+            font-size: 18px;
+            margin: 0 5px;
+            padding: 0 5px;
+            display: inline-block;
+            color: rgba(255, 255, 255, 0.5);
+            .fa {
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+    }
+    .subscription input {
+        width: 100%;
+        line-height: 40px;
+        border: 1px solid #333333;
+        padding: 0 50px 0 25px;
+        background: transparent;
+        color: #fff;
+        font-weight: 300;
+    }
+    .subscription .newsletter-btn {
+        width: 42px;
+        height: 40px;
+        line-height: 42px;
+        text-align: center;
+        background: transparent;
+        color: #fff;
+        position: absolute;
+        top: 1px;
+        right: 0;
+        border: 1px solid #00ff8c;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        &:hover {
+            background: #00ff8c;
+        }
+    }
+}

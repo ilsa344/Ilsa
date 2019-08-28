@@ -1,0 +1,27 @@
+.banner-area {
+    background: linear-gradient(to right, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%), url(https://colorlib.com/etc/datarc/img/banner.jpg) no-repeat center center/cover;
+    position: relative;
+    height: 690px;
+
+    .overlay-bg {
+        background: linear-gradient(to right, rgba(60, 64, 143, 0.95) 0%, rgba(91, 97, 207, 0.95) 100%);
+    }
+    .primary-btn{
+        color: #fff !important;
+        margin-top: 60px;
+            line-height: 40px;
+            padding: 0 40px;
+            border-radius: 20px;
+            background: transparent;
+            border: 1px solid #00ff8c;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 600;
+        
+        &:hover{
+            background: #00ff8c;
+            text-decoration: none;
+        }
+    } 
+}

@@ -1,0 +1,35 @@
+.section-full {
+    padding: 150px 0;
+    background: #f9f9ff;
+
+    .des {
+        // font-weight: 300 !important;
+        font-family: "Poppins", sans-serif !important;
+        font-size: 24px !important;
+        line-height: 1.5em;
+        color: #777777;
+    }
+    .card-title{
+        font-size: 15px;
+        margin-bottom: 15px;
+        font-weight: 300 !important;
+    }
+    .cardbtn {
+        line-height: 40px;
+        padding: 0 40px;
+        border-radius: 20px;
+        background: transparent;
+        border: 1px solid #00ff8c;
+        color: #222222;
+        display: inline-block;
+        font-weight: 600;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+
+        &:hover {
+            background: #00ff8c;
+            color: #fff;
+            box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.title-bg{
+    background: #000;
+
+    .h1{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: "Poppins", sans-serif !important;
+        font-weight: 600;
+    }
+
+    .single-product {
+        margin-top: 30px;
+        background: #fff;
+        border-bottom: 2px solid #00ff8c;
+        padding: 70px 20px;
+        
+        .icon {
+            text-align: center;
+            margin-bottom: 20px;
+
+            .fa {
+                font-size: 48px;
+                color: #00ff8c;
+                
+            }
+
+        }
+
+        &:hover {
+            background: #00ff8c;
+            color: white;
+            
+            .fa{
+                color:white !important;
+                
+            }
+        }
+        
+        .desc {
+            text-align: center;
+
+            h4 {
+                margin-bottom: 10px;
+                
+            }
+            p {
+                margin-bottom: 0;
+                
+            }
+        }
+    }
+}
